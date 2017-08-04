@@ -1,0 +1,19 @@
+forward:
+  single tick
+  advance hidden state
+  add functions to G
+
+Graph
+ does backprop
+ sets .dw fields of matrices
+
+Solver
+ updates models
+ step cache doesn't matter
+
+input
+forward
+calc loss,set deriv in last layer
+backward
+solver
+
